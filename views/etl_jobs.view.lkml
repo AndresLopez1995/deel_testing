@@ -24,6 +24,7 @@ view: etl_jobs {
   }
 
   measure: count {
+    description: "count"
     type: count
     drill_fields: [id]
   }
