@@ -1,7 +1,7 @@
 connection: "snowlooker"
 
 # include all the views
-include: "/views/**/*.view"
+include: "/Looker/views/**/*.view"
 
 datagroup: datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
